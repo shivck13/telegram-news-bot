@@ -4,7 +4,7 @@ import datetime, json, os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import filters, Updater, CommandHandler, RegexHandler, MessageHandler, CallbackQueryHandler
 
-TOKEN = os.environ('BOT_TOKEN')
+TOKEN = os.environ['BOT_TOKEN']
 
 updater = Updater(token=TOKEN, use_context=True)
 
